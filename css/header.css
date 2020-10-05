@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner {
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+}
+#lazo{
+    margin-top: -3%;
+    background-color: rgb(244, 171, 30);
+    width: 100%;
+    height: 10vh;
+}
+#log{
+    float: unset;
+    margin-top: -4%;
+    border-radius: 50%;
+    height: 200px;
+    overflow: hidden;
+    transition: 1s;
+}
+#log:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.content{
+    background-size: cover;
+    width: 100%;
+    height: 99vh;
+    
+}
+.content img{
+    height: 90vh;
+}
