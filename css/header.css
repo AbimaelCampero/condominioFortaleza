@@ -1,36 +1,81 @@
-*{
-    padding: 0;
+body{
     margin: 0;
 }
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+}
+header{
+    height: 2vh;
+    background-color: rgb(22, 25, 27);
+    padding: 2rem 0;
+    padding-left: 5%;
+    padding-right: 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s;
+}
+.navigation ul li a:hover{
+    background: rgb(242, 117, 0);
+}
+#ban{
+    padding-top: 4rem;;
+}
 .banner {
-    background-color: black;
-    width: 100%;
-    height: 60vh;
-}
-#lazo{
-    margin-top: -3%;
-    background-color: rgb(244, 171, 30);
-    width: 100%;
-    height: 10vh;
-}
-#log{
-    float: unset;
-    margin-top: -4%;
-    border-radius: 50%;
-    height: 200px;
-    overflow: hidden;
-    transition: 1s;
-}
-#log:hover{
-    transform: scale(1.3);
-    transition: 1s;
-}
-.content{
-    background-size: cover;
-    width: 100%;
-    height: 99vh;
     
+    display: flex;
+    width: 100%;
+    height: 95vh;
 }
-.content img{
-    height: 90vh;
+#item1{
+    background-color: rgb(22, 25, 27);
+    height: 100%;
+    width: 50vw;
+}
+#item2{
+    height: 100%;
+    background: rgb(242, 117, 0);
+    width: 50vw;
+}
+#item3{
+    background-color: rgb(136, 25, 25);
+    height: 100%;
+    width: 50vw;
+}
+#item4{
+    height: 100%;
+    background: rgb(22, 25, 27);
+    width: 50vw;
+}
+.img{
+    text-align: center;
+    margin: 10% 15%;
+    width: 67%;
+    color: white;
+    font-size: 45px;
+    justify-content: center;
 }
