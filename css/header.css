@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    scroll-behavior: smooth;
+    
 }
 
 .logo{
@@ -40,7 +42,7 @@ header a{
     transition: all 0.2s;
 }
 .navigation ul li a:hover{
-    background: rgb(242, 117, 0);
+    background: rgb(136, 25, 25)
 }
 #ban{
     padding-top: 4rem;;
@@ -55,6 +57,24 @@ header a{
     width: 100%;
     background-image: url(/imagen/edi.jpg);
     background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.linea{
+    margin-top: -30px;
+    height: 2px;
+    background-color: white;
+    width: 25%;
+
+}
+#repre{
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    background-color: rgba(22, 25, 27, 0.842);
+    width: 35vw;
 }
 #item img{
     width: 100%;
@@ -66,7 +86,7 @@ header a{
 }
 #item2{
     height: 100%;
-    background: rgb(242, 117, 0);
+    background: rgb(255, 255, 255);
     width: 50vw;
 }
 #item3{
@@ -83,7 +103,7 @@ header a{
     text-align: center;
     margin: 10% 15%;
     width: 67%;
-    color: rgb(242, 117, 0);
+    color: rgb(255, 255, 255);
     font-size: 45px;
     justify-content: center;
 }
