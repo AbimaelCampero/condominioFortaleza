@@ -55,7 +55,7 @@ header a{
 }
 #item{
     width: 100%;
-    background-image: url(/imagen/edi.jpg);
+    background-image: url(imagen/edi.jpg);
     background-size: 100%;
     display: flex;
     justify-content: center;
@@ -83,12 +83,12 @@ header a{
 #item1{
     background-color: rgb(22, 25, 27);
     height: 100%;
-    width: 50vw;
+    width: 100%;
 }
 #item2{
     height: 100%;
     background: rgb(255, 255, 255);
-    width: 50vw;
+    width: 100%;
 }
 #item3{
     background-color: rgb(136, 25, 25);
@@ -107,4 +107,10 @@ header a{
     color: rgb(255, 255, 255);
     font-size: 45px;
     justify-content: center;
+}
+@media screen and(max-width: 600px)
+{
+    .banner{
+        flex-direction: column;
+    }
 }
