@@ -55,7 +55,7 @@ header a{
 }
 #item{
     width: 100%;
-    background-image: url(imagen/edi.jpg);
+    background-image: url(../imagen/edi.jpg);
     background-size: 100%;
     display: flex;
     justify-content: center;
