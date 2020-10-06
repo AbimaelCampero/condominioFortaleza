@@ -140,8 +140,28 @@ header a{
 .containero .card .box:hover{
    transform: translateY(-50px);
    box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+   
 }
-
+.perfil{
+    width: 40%;
+}
+.logoa{
+    width: 30px;
+    margin-right: 10px;
+}
+.cargo{
+    
+    color: rgba(172, 107, 107, 0.664);
+    border-color: white;
+}
+.content{
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 
