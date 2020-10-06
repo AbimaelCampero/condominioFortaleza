@@ -169,6 +169,10 @@ header a{
 {
     header{
         height:5vh;
+        position: absolute;
+    }
+    header a{
+        margin-top: -30px;
     }
     #ban{
         padding-top: 14vh;
