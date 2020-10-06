@@ -88,8 +88,13 @@ header a{
 }
 #item2{
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgb(255, 255, 255);
     width: 100%;
+    color: rgb(136, 25, 25);
+    font-size: 306%;
 }
 .img{
     text-align: center;
