@@ -176,9 +176,7 @@ header a{
 
 @media screen and (max-width: 950px)
 {
-    .navigation ul{
-        display: none;
-    }
+    
     header{
         position: absolute;
     }
@@ -186,14 +184,17 @@ header a{
         padding-inline-start: 0;
     }
     .logo span{
-        font-size: 10px;
+        font-size: 13px;
     }
     header a{
         margin-top: -30px;
     }
-    #ban{
+    #ban,#item{
         padding-top: 10vh;
+        height: 100vh;
+        background-size: cover;
     }
+
     .linea{
         background-color: transparent;
     }
