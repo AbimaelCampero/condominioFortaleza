@@ -27,6 +27,7 @@ header a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .navigation ul{
     padding: 0;
@@ -173,13 +174,16 @@ header a{
     color: rgba(255, 255, 255, 0.5);
 }
 
-
-
-@media screen and (max-width: 800px)
+@media screen and (max-width: 950px)
 {
+    .navigation ul{
+        display: none;
+    }
     header{
-        height:5vh;
         position: absolute;
+    }
+    .logo{
+        padding-inline-start: 0;
     }
     .logo span{
         font-size: 10px;
@@ -188,7 +192,7 @@ header a{
         margin-top: -30px;
     }
     #ban{
-        padding-top: 14vh;
+        padding-top: 10vh;
     }
     .linea{
         background-color: transparent;
