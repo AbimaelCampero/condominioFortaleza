@@ -181,11 +181,17 @@ header a{
         height:5vh;
         position: absolute;
     }
+    .logo span{
+        font-size: 10px;
+    }
     header a{
         margin-top: -30px;
     }
     #ban{
         padding-top: 14vh;
+    }
+    .linea{
+        background-color: transparent;
     }
     .banner{
         flex-direction: column;
